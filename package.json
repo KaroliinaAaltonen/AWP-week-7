@@ -1,0 +1,32 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.15.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ],
+  "author": "",
+  "license": "ISC"
+}
